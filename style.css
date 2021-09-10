@@ -1,0 +1,74 @@
+body {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-bottom: 80px;    /* this could be done differently, maybe like space_around or something */
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header, .content1 {
+    margin: 12px 100px;
+}
+
+.header-right {
+    display: flex;
+    gap: 12px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1-left {
+    display:flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 400px;
+}
+
+.headline {
+    margin: 0;
+    max-width: 300px;
+}
+
+button {
+    align-self: flex-start;
+}
+
+.largeimg {
+    background-color: grey;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
