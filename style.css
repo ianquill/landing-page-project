@@ -146,18 +146,18 @@ button {
 .content4 {
     display: flex;
     justify-content: center;
-    padding: 84px;
+    padding: 48px 0;
 }
 
 .callbox {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #3882F6;
     padding: 48px;
     border-radius: 16px;
     margin: 18px 148px;
     flex: 1;
-    
+    align-items: center;
 }
 
 .left-heading {
@@ -166,4 +166,20 @@ button {
 
 .left-subheading {
     font-size: 12px;
+}
+
+.call {
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.footer-text {
+    font-size: 10px;
 }
