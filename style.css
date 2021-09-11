@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 12px 148px;
+
 }
 
 .content1, .content2 {         /* could reword this to be more universal */
@@ -34,11 +35,17 @@ body {
 .header-right {
     display: flex;
     gap: 12px;
+
 }
+
 
 a {
     color: white;
     text-decoration: none;
+}
+
+.link {
+    flex: 0 0 auto;
 }
 
 .content1 {
@@ -51,6 +58,7 @@ a {
     flex-direction: column;
     gap: 6px;
     max-width: 400px;
+    flex: 0 0 auto;
 }
 
 .headline {
